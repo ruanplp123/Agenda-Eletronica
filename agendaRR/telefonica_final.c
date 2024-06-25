@@ -39,13 +39,13 @@ int main(void)
     {
     	system("color 0A");
         system("cls");
-        imprimirTexto(59, 1, " _____________Menu_______________\n");
+        imprimirTexto(59, 1, " _____________Menu______________\n");
         imprimirTexto(60, 2, "\x7C 1 - Inserção de dados        \x7C\n ");
         imprimirTexto(60, 3, "\x7C 2 - Lista de dados           \x7C\n");
         imprimirTexto(60, 4, "\x7C 3 - Apagar dados             \x7C\n");
         imprimirTexto(60, 5, "\x7C 4 - Apagar contato por linha \x7C\n");
         imprimirTexto(60, 6, "\x7C 5 - Consultar contato        \x7C\n");
-        imprimirTexto(60, 7, "\x7C 6 - Sair                     \x7C\n");
+        imprimirTexto(60, 7, "\x7C 6 - _______Sair______________\x7C\n");
         imprimirTexto(60, 9, " Digite uma opção:");
         scanf("%c", &opcao);
         fflush(stdin);
